@@ -28,6 +28,6 @@ echo "Installing texlive-fonts-recommended..."
 sudo apt-get install -y texlive-fonts-recommended
 
 echo "Making conversion script exsecutable..."
-sudo chmod u+x /vagrant/convert.sh
+sudo chmod u+x /vagrant/tex/convert.sh
 
 echo "Finish!!"

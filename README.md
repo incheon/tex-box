@@ -7,11 +7,11 @@ Tex環境には向かないWindowsなどのOSでご使用下さい。
 
 環境
 ------
-Ubuntu 14.04
-python-software-properties
-texlive-lang-cjk
-xdvik-ja
-texlive-fonts-recommended
+* Ubuntu 14.04
+* python-software-properties
+* texlive-lang-cjk
+* xdvik-ja
+* texlive-fonts-recommended
 
 使い方
 ------
@@ -25,8 +25,8 @@ $ cp -f ./conf/Vagrantfile ./Vagrantfile
 $ vagrant up
 $ vagrant ssh
 $ cd /vagrant
-$ vi main.tex
-$ ./convert.sh
+$ vi tex/main.tex
+$ ./tex/convert.sh
 ```
 
 その他
