@@ -19,14 +19,15 @@ Tex環境には向かないWindowsなどのOSでご使用下さい。
 ```
 $ git clone https://github.com/incheon/tex_box.git
 $ cd tex_box
-$ vagrant box add precise32 hashicorp/precise32
+$ vagrant box add hashicorp/precise32
 $ vagrant init precise32
 $ cp -f ./conf/Vagrantfile ./Vagrantfile
 $ vagrant up
 $ vagrant ssh
 $ cd /vagrant
-$ vi tex/main.tex
-$ ./tex/convert.sh
+$ vi tex/sample.tex
+$ cd tex
+$ ./convert.sh
 ```
 
 その他

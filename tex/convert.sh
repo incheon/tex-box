@@ -2,6 +2,6 @@
 
 echo "Start tex to pdf conversion"
 echo "Please replace tex file name with yours..."
-platex main.tex
-dvipdfmx main.dvi
+platex sample.tex
+dvipdfmx sample.dvi
 echo "Finished!"
