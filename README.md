@@ -19,9 +19,9 @@ Tex環境には向かないWindowsなどのOSでご使用下さい。
 ```
 $ git clone https://github.com/incheon/tex_box.git
 $ cd tex_box
-$ vagrant box add hashicorp/precise32
+$ vagrant box add hashicorp/precise32 # No need once you installed
 $ vagrant init precise32
-$ cp -f ./conf/Vagrantfile ./Vagrantfile
+$ cp -f ./conf/Vagrantfile ./Vagrantfile # No need -f option if you use windows
 $ vagrant up
 $ vagrant ssh
 $ cd /vagrant
