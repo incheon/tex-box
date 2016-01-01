@@ -19,8 +19,6 @@ Tex環境には向かないWindowsなどのOSでご使用下さい。
 ```
 $ git clone https://github.com/incheon/tex_box.git
 $ cd tex_box
-$ vagrant box add ubuntu/trusty64 # No need once you installed
-$ vagrant init trusty64
 $ vagrant up
 $ vagrant ssh
 $ cd /vagrant
