@@ -1,36 +1,17 @@
-About - tex-boxの概要
-------
-Vagrantでtexをコンパイルする環境を気軽に作成できます。
-共有フォルダからコンパイル済みpdfをホスト側で閲覧可能。
-Tex環境には向かないWindowsなどのOSで使って下さい。
+Virtual Machine for Tex Compilation into PDF
+===
 
-Environment - 環境
-------
-* Ubuntu 14.04
-* python-software-properties
-* texlive-lang-cjk
-* xdvik-ja
-* texlive-fonts-recommended
+Warnings
+---
 
-How To Use - 使い方
-------
+This repository is **deprecated**.
 
-### Texファイルを作ってpdf変換する
-```
-$ git clone https://github.com/incheon/tex_box.git
-$ cd tex_box
-$ vagrant up
-$ vagrant ssh
-$ cd /vagrant
-$ vi tex/sample.tex
-$ cd tex
-$ ./convert.sh
-```
+[The fork by imaizume](https://github.com/imaizume/tex-box) will be maintained so please see [here](https://github.com/imaizume/tex-box).
 
-Other - その他
-------
-PDFを閉じずリロードするには[SumatraPDF](http://www.sumatrapdfreader.org/free-pdf-reader-ja.html)が便利ですよ。
+License
+---
 
-TODO - 今後やること
-------
-* 変更をwatchしてlive convertするように設定したい
+Copyright (c) 2016 Tomohiro Imaizumi.
+Released under the MIT License
+https://github.com/imaizume/tex-box/blob/master/MIT-LICENSE.txt
+
